@@ -335,3 +335,80 @@ header{
     grid-row: span 2;
     height: 103vh; 
 }
+
+.contact-section{
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-section p,h1,button{
+    color: white;
+}
+.contact-section button{
+    color: #000;
+}
+.contact-section .img1{
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    height:400px;
+    clip-path: polygon(33% 3%, 90% 0, 75% 96%, 0% 100%);
+}
+
+.contact-section .img2{
+    position:absolute;
+    left: 50px;
+    top: 10px;
+    height: 200px;
+    clip-path: polygon(27% 14%, 76% 9%, 100% 50%, 79% 93%, 28% 88%, 0% 50%);
+    ;
+}
+
+.contact-section .img3{
+    position: absolute;
+    left: 5%;
+    bottom: 30%;
+    width: 250px;
+    height: 250px;
+    clip-path: polygon(48% 3%, 100% 38%, 88% 83%, 23% 90%, 0% 38%);
+}
+
+.contact-section p{
+    margin-top: 100px;
+
+}
+
+.contact-section h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    max-width: 550px;
+    text-align: center;
+    background: linear-gradient(to right , #4acfee , #53f8c9 , #02d79a , #6070fd , #2a46ff , #0099ff , #4acfee);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+.contact-section button{
+    padding: 10px 25px;
+    border: 1px solid gray;
+    background-color: #0f1217;
+    color: gray;
+    border-radius: 20px;
+    box-shadow: 0 0 5px lightgray;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-section button:hover{
+    box-shadow: 0 0 15px lightgray;
+    opacity: 0.7;
+
+}
